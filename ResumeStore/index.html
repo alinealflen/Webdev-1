@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>The Resume Store </title>
+    <style>
+        .buscar {
+            color: rebeccapurple;
+        }
+        span{
+            font-size: 20px;
+        }
+        .pesquisar {
+            background-color: burlywood;
+            text-align: center;
+            text-decoration: underline;
+            color:brown;
+            font-style: oblique;
+            font-weight: bold;
+
+        }
+        #em-construcao{
+            color: red;
+            font-size: 40px;
+            background-color: peru;
+            text-transform: uppercase
+        }
+        body{
+            background-color: darksalmon
+        }
+        #Fulano{
+                font-size:20px;
+                color:darkred;
+        }
+        p .normal{
+                color:deeppink;
+                font-style:oblique;
+        }
+        header.search {
+                background-color: red;
+                height: 200px; 
+                margin: 30px;  /*aplica a todos os lados*/
+                /*margin-right: 30px; aplica somente a direita*/
+                /*margin-top: 500px; aplica no topo da pagina*/
+                /*margin-bottom: 500px; aplica em baixo do cabeçario*/
+                /* margin: 50px 25px 70px 150px; /*pra cima , direita , em baixo , esquerda esses sao as ordem*/
+                /*margin:15%;   coloca uma distancia dos outros elementos*/
+                padding: 50px;
+
+                border: 5px solid white; /*borda reta*/
+                /*border: 5px dashed green; tracejada*/
+                border-radius: 50px;
+        }
+        .search .input-search{
+                height: 70px;
+                border:white solid green;
+        }
+      .search button{
+                height: 50px;
+                width: 100px;
+                color:blue;
+                border: 5px solid green;
+                background-color:green;
+                text-transform: uppercase;
+        }
+        .search img.controle{
+                height: 50px;
+                width: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="buscar">
+            <img class="controle" src="controle.jpg" alt="Logo">
+            <form class="pesquisar">
+                <input type="text" placeholder="Pesquisar....">
+                <button type="submit">Pesquisar</button>
+                <span>Informe um texto de busca</span>
+            </form>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h2 id="em-construcao">Em construção</h2>
+            <span id="Fulano">Ciclano</span>
+        </section>
+        <section>
+                <p>
+                    <span class="normal">D.va</span>
+                    <span class="normal">Orisa</span>
+                </p>
+            </section>
+    </main>
+
+</body>
+
+</html>
